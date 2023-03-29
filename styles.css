@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.active{
+#panel-1{
 	flex:5;
 	border-radius:50px;
 }
@@ -11,12 +11,15 @@ h3{
 	margin-left:20px;
 	display:absolute;
 	bottom:0px;
+	position:absolute;
+	bottom:0;
 }
 .container{
 	width:800px;
 	height:500px;
 	display:flex;
     column-gap: 10px;
+	position:relative;
 }
 .panel:hover{
 	flex:5;
