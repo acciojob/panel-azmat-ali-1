@@ -1,16 +1,58 @@
 /*  your css code here. If applicable */
-img{
-    width: 60px;
-	height:400px;
-    border-radius: 50px;
-	object-fit:cover;
+.active{
+	flex-grow:1;
+	border-radius:50px;
+}
+div div{
+	width:60px;
+}
+h3{
+	display:none;
+	text-align:left;
+	margin-left:20px;
+	display:absolute;
+	bottom:0px;
 }
 .container{
+	width:800px;
+	height:500px;
 	display:flex;
-    column-gap: 20px;
+    column-gap: 10px;
 }
-img:hover{
-    width: 600px;
-	height:400px;
+.panel:hover{
+	flex-grow:1;
     border-radius: 30px;
+}
+.panel:hover h3{
+	display:block;
+	display:absolute;
+	bottom:0px;
+}
+div .panel{
+	border-radius:50px;
+}
+#panel-1{
+	background-image:url(https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+	background-size:     cover;                     
+    background-position: center center;   
+}
+#panel-2{
+	background-image:url(https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+background-size:     cover;                     
+    background-position: center center; 
+}
+#panel-3{
+	background-image:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80);
+background-size:     cover;                     
+    background-position: center center; 
+}
+#panel-4{
+	background-image:url(https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);
+background-size:     cover;                     
+    background-position: center center; 
+}
+#panel-5{
+	background-image:url(https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+background-size:     cover;                     
+    background-position: center center; 
 }
